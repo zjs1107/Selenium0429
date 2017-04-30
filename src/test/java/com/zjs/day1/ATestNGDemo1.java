@@ -1,5 +1,6 @@
 package com.zjs.day1;
 
+import org.testng.Assert;
 import org.testng.annotations.*;
 
 /**
@@ -34,6 +35,7 @@ public class ATestNGDemo1 {
     @Test
     public void testCase2(){
         System.out.println("这是@test注解.case2");
+        Assert.assertEquals(1,2);
     }
 
 }
